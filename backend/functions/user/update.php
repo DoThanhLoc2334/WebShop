@@ -33,10 +33,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             header("Location: index.php");
             exit();
         } else {
-            echo "Lỗi khi cập nhật: " . $stmt->error;
+            echo "error: " . $stmt->error;
         }
     } else {
-        echo "Vui lòng nhập đầy đủ thông tin!";
+        echo "error!";
     }
 }
 ?>
