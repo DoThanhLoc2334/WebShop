@@ -7,3 +7,13 @@ body {
 main {
     flex: 1; /* Cho phép phần main chiếm phần còn lại của chiều cao */
 }
+
+.carousel-item{
+    height: 32rem; /* Chiều cao của mỗi item trong carousel */
+}
+
+.carousel-item img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của item */
+    height: 285px; /* Đảm bảo hình ảnh chiếm toàn bộ chiều cao của item */
+    object-fit: cover; /* Giữ tỷ lệ khung hình và cắt bớt nếu cần */
+}
