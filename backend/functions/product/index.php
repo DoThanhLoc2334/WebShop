@@ -71,7 +71,7 @@
                                 <td><?= $item[1] ?></td>
                                 <td><?= $item[2] ?></td>
                                 <td><?= $item[3] ?></td><td>
-                                    <img src="/demoshop/assets/<?= $item[4] ?>" alt="" style="width:200px;height:auto;"/>
+                                    <img src="/demoShop/assets/<?= $item[4] ?>" alt="" style="width:200px;height:auto;"/>
                                 </td>
                                 <td><?= $item[5] ?></td>
                                 <td>
