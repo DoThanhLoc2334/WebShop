@@ -21,7 +21,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/myShop/assets/uploads/slider/slider1.webp" alt="">
+          <img src="/demoshop/assets/uploads/slider/slider1.webp" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Example headline.</h1>
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/myshop/assets/uploads/slider/slider2.webp" alt="">
+          <img src="/demoshop/assets/uploads/slider/slider2.webp" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
