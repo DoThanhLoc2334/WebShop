@@ -1,7 +1,6 @@
 <?php
 include_once(__DIR__ . '/../../../dbconnect.php');
 
-// Bước 1: Lấy dữ liệu người dùng theo ID (GET)
 if (isset($_GET["id"])) {
     $id = intval($_GET["id"]);
     $stmt = $conn->prepare("SELECT * FROM users WHERE id = ?");
@@ -19,7 +18,6 @@ if (isset($_GET["id"])) {
     exit();
 }
 
-// Bước 2: Xử lý khi Submit Form (POST)
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = trim($_POST["username"]);
     $password = trim($_POST["password"]);
@@ -43,7 +41,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-<!-- Giao diện form -->
 <!DOCTYPE html>
 <html>
 <head>
