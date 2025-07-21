@@ -13,7 +13,6 @@
       <li class="nav-item sidebar-heading">
         <span>Product</span>
       </li>
-      <!-- Menu product -->
       <li class="nav-item dropdown">
         <a href="#" role="button" data-toggle="collapse" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">
           Product
@@ -25,11 +24,34 @@
           <li class="dropdown-item">
             <a href="/demoshop/backend/functions/product/create.php">Create</a>
           </li>
+          <li class="dropdown-item">
+            <a href="/demoshop/backend/functions/product/update.php">Update</a>
+          </li>
         </ul>
       </li>
-
-      <!-- End Menu product -->
       <!-- #################### End Menu product #################### -->
+
+      <!-- #################### Menu users #################### -->
+      <li class="nav-item sidebar-heading mt-3">
+        <span>Users</span>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" role="button" data-toggle="collapse" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">
+          Users
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+            <a href="/demoshop/backend/functions/user/index.php">User List</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="/demoshop/backend/functions/user/create.php">Create</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="/demoshop/backend/functions/user/update.php">Update</a>
+          </li>
+        </ul>
+      </li>
+      <!-- #################### End Menu users #################### -->
     </ul>
   </div>
 </nav>
