@@ -8,7 +8,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $address  = trim($_POST["address"]);
     $role     = trim($_POST["role"]);
 
-    // Kiểm tra dữ liệu không rỗng
     if ($username && $password && $email && $address && $role) {
         $created_at = date("Y-m-d H:i:s");
         $stmt = $conn->prepare("INSERT INTO users (username, password, email, address, role, created_at) VALUES (?, ?, ?, ?, ?, ?)");
@@ -25,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-<!-- Giao diện form -->
 <!DOCTYPE html>
 <html>
 <head>
