@@ -20,7 +20,7 @@
             <div class="carousel-inner">
            
                 <div class="carousel-item active">
-                    <img src="demoshop/assets/uploads/slider/slier2.jpg" class="d-block w-100" alt="Slide 1" style="height: 500px; object-fit: cover;">
+                    <img src="../assets/uploads/slider/slider1.webp" class="d-block w-100" alt="Slide 1" style="height: 500px; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Example headline.</h1>
@@ -32,7 +32,7 @@
                 
     
                 <div class="carousel-item">
-                    <img src="demoshop/assets/uploads/slider/slier2.jpg" class="d-block w-100" alt="Slide 2" style="height: 500px; object-fit: cover;">
+                    <img src="../assets/uploads/slider/slider2.webp" class="d-block w-100" alt="Slide 2" style="height: 500px; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Another example headline.</h1>
@@ -44,7 +44,7 @@
                 
   
                 <div class="carousel-item">
-                    <img src="demoshop/assets/uploads/slider/slier2.jpg" class="d-block w-100" alt="Slide 3" style="height: 500px; object-fit: cover;">
+                    <img src="../assets/uploads/slider/slider1.webp" class="d-block w-100" alt="Slide 3" style="height: 500px; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption text-end">
                             <h1>One more for good measure.</h1>
@@ -81,7 +81,7 @@
                 </div><!-- /.col-lg-4 -->
                 
                 <div class="col-lg-4">
-                    <div class = "icon" >
+                    <div class = "icon" >  
                         <i class="fa fa-archive" aria-hidden="true"></i>
                     </div>
                         <title>Placeholder</title>
