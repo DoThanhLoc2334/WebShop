@@ -17,3 +17,7 @@ main {
     height: 285px; /* Đảm bảo hình ảnh chiếm toàn bộ chiều cao của item */
     object-fit: cover; /* Giữ tỷ lệ khung hình và cắt bớt nếu cần */
 }
+
+.icon i {
+    font-size: 56px; /* Kích thước biểu tượng */
+}
