@@ -56,4 +56,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </body>
 
 </html>
-echo 'Input: ' . $password . '<br>Hash: ' . $user['password'];
+
+<?php
+$input = 'thanhloc2300';
+$hash = '$2y$10$XCV32s9wrEIEzSqiGxnMhO5...'; // Dán đầy đủ hash ở đây
+var_dump(password_verify($input, $hash));
+?>
